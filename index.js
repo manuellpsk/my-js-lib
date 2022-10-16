@@ -10,6 +10,6 @@ function differenceBetweenTwoDates(dateA, dateB) {
     return Math.abs(dateA.getTime() - dateB.getTime())
 }
 
-export default {
+export {
     differenceBetweenTwoDates
 }
